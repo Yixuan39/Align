@@ -64,22 +64,36 @@ def buildTree(directory,number):
             fakegene.append("")
     treeStru = "(((((" + fakegene[0] + "," + fakegene[1] + ")"+node+"," + fakegene[2] + ")"+node+",((" + fakegene[3] + "," + fakegene[4] + ")"+node+"," + \
                fakegene[5] + ")"+node+")"+node+",(" + fakegene[6] + "," + fakegene[7] + ")"+node+")"+node+",ENSLOCG)"+node
-    iteration = 0
-    while iteration < 10:
-        treeStru=treeStru.replace("(,","(")
-        treeStru=treeStru.replace(",)*",")*")
-        treeStru=treeStru.replace("(,)","()")
-        treeStru=treeStru.replace("()*","")
-        treeStru=treeStru.replace("(gene)*","gene")
-        treeStru=treeStru.replace("((gene,gene)*)*","(gene,gene)*") #special case
-        iteration += 1
-    for i in newgene:
-        treeStru=treeStru.replace("gene",i,1)
-    nodeNum = treeStru.count("*") - 1
-    for j in range(0,nodeNum+1):
-        treeStru=treeStru.replace("*","N"+str(nodeNum-j),1)
-    #print(newgene)
+    j = 0
+    while j < 1:
+        if "(," in treeStru:
+            treeStru = treeStru.replace("(,", "(")
+            j = 0
+        elif ",)*" in treeStru:
+            treeStru = treeStru.replace(",)*", ")*")
+            j = 0
+        elif "(,)" in treeStru:
+            treeStru = treeStru.replace("(,)", "()")
+            j = 0
+        elif "()*" in treeStru:
+            treeStru = treeStru.replace("()*", "")
+            j = 0
+        elif "(gene)*" in treeStru:
+            treeStru = treeStru.replace("(gene)*", "gene")
+            j = 0
+        elif "((gene,gene)*)*" in treeStru:
+            treeStru = treeStru.replace("((gene,gene)*)*", "(gene,gene)*")  # special case
+            j = 0
+        else:
+            j = 1
     #print(treeStru)
+    for k in newgene:
+        treeStru=treeStru.replace("gene",k,1)
+    nodeNum = treeStru.count("*") - 1
+    for l in range(0,nodeNum+1):
+        treeStru=treeStru.replace("*","N"+str(nodeNum-l),1)
+    #print(newgene)
+    print(treeStru)
     with open(directory+"/"+str(number)+"/Pillar"+str(number)+".newick","w") as new:
         new.write(treeStru)
 
@@ -108,7 +122,6 @@ def main():
               '3278', '3295', '3309', '3337', '3346', '3347', '3390', '3994', '4025', '4031', '4063',
               '4268', '4287', '4494', '4553', '4570', '4932', '5153', '5233', '5316', '5550']
     List = read()
-
     #nameDic()
     directory = "TGD_CDS_new"
     numbers = List
