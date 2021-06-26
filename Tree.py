@@ -65,12 +65,13 @@ def buildTree(directory,number):
     treeStru = "(((((" + fakegene[0] + "," + fakegene[1] + ")"+node+"," + fakegene[2] + ")"+node+",((" + fakegene[3] + "," + fakegene[4] + ")"+node+"," + \
                fakegene[5] + ")"+node+")"+node+",(" + fakegene[6] + "," + fakegene[7] + ")"+node+")"+node+",ENSLOCG)"+node
     iteration = 0
-    while iteration < 5:
+    while iteration < 10:
         treeStru=treeStru.replace("(,","(")
         treeStru=treeStru.replace(",)*",")*")
         treeStru=treeStru.replace("(,)","()")
         treeStru=treeStru.replace("()*","")
         treeStru=treeStru.replace("(gene)*","gene")
+        treeStru=treeStru.replace("((gene,gene)*)*","(gene,gene)*") #special case
         iteration += 1
     for i in newgene:
         treeStru=treeStru.replace("gene",i,1)
