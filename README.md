@@ -4,29 +4,16 @@
 
 The data used in this project is downloaded from Dr. Gavin Conant’s website (http://wgd.statgen.ncsu.edu). The folder of the data is called “TGD_CDS” which contain gene of fishes. 
 
-The tree structure for each gene looks like this:
-
-<img src="/Users/yixuanyang/Library/Application Support/typora-user-images/Screen Shot 2021-06-28 at 4.35.08 PM.png" alt="Screen Shot 2021-06-28 at 4.35.08 PM" style="zoom:150%;" />
-
-*The file structure of the TGD_CDS folder is attached at the end.*
-
 ## Process of aligning the input files
 
 1. Add Gar sequences
 
    The original gene sequence file, TGD_CDS, does not include the Gar (ENSLOCG) sequence. So attach the gar data to each of the 5588 files. The algorithm for this part is for each data file, we catch the name of the first gene (first line), then match the gene name with the dictionary Dr. Conant gave us. In the file named “TGD_reextract_ances_genes.txt”, each line represent a gene, and in each gene, gene names are tab separated (the first number in each line is the row number). 
 
-   ![Screen Shot 2021-06-26 at 9.08.15 PM](/Users/yixuanyang/Library/Application Support/typora-user-images/Screen Shot 2021-06-26 at 9.08.15 PM.png)
-
-   ![Screen Shot 2021-06-26 at 9.09.00 PM](/Users/yixuanyang/Library/Application Support/typora-user-images/Screen Shot 2021-06-26 at 9.09.00 PM.png)
-
-   ![Screen Shot 2021-06-26 at 9.14.16 PM](/Users/yixuanyang/Desktop/Screen Shot 2021-06-26 at 9.14.16 PM.png)
-
 2. Select according to Gavin’s instruction
 
    We select the fish data file according to Gavin’s list.  The number at the beginning of each line is the pillar number of the fish data. The selected data in the list were insured to have 2 paralogs of stickleback and 2 paralogs of zebrafish, with a 90% confident orthology inference.
 
-   ![Screen Shot 2021-06-26 at 10.06.45 PM](/Users/yixuanyang/Desktop/Screen Shot 2021-06-26 at 10.06.45 PM.png)
 
 3. Align the sequence using t-coffee and algndna_new software
 
@@ -138,9 +125,3 @@ The tree structure for each gene looks like this:
    Using species: ENSDARG, ENSGACG, ENSLOCG (outgroup)
 
 
-
-
-
-*File structure of folder TGD_CDS*
-
-<img src="/Users/yixuanyang/Desktop/Screen Shot 2021-06-28 at 4.32.23 PM.png" alt="Screen Shot 2021-06-28 at 4.32.23 PM" style="zoom:150%;" />
