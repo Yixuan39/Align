@@ -77,7 +77,7 @@ def copyFile(number, directory, dic):
                         r.append(g[rowNum + 1])
                         r.append("\n")
                     rowNum += 1
-            with open(directory + "/Pillar"+str(number)+"_CDS.fas","w") as w:
+            with open(directory + "/Pillar"+str(number)+"_CDS.fas","w+") as w: # "w+" creates the file if it doesn't exist
                 for line in r:
                    w.write(line)
     except:
@@ -89,14 +89,9 @@ def addGar():
         os.mkdir("TGD_CDS_withGar")
     except:
         pass
-    ranges = range(0, 5589)
-    numbers = []
-    for i in ranges:
-        i = str(i)
-        numbers.append(i)
     dic = GarMatching2()
-    for number in numbers:
-        copyFile(number, "TGD_CDS_withGar",dic)
+    for number in range(0, 5589):
+        copyFile(str(number), "TGD_CDS_withGar",dic)
         
 def select(List,direcetory):
     try:
