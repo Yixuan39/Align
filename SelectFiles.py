@@ -129,18 +129,18 @@ def createScriptsIn1(List,directory):
     except:
         pass
     number = List
-    with open("algndna_new/pir/tcoffeeCommand.sh","w") as new:
-        new.write("#!/bin/bash\n\n")
+    with open("algndna_new/pir/tcoffeeCommand.sh","w") as f:
+        f.write("#!/bin/bash\n\n")
         for i in number:
             # step 1
-            new.write("t_coffee -other_pg seq_reformat -in "+directory+"/Pillar"
+            f.write("t_coffee -other_pg seq_reformat -in "+directory+"/Pillar"
                       + str(i) + "_CDS.fas -action +translate -output fasta_aln > outputs/Pillar" + str(i) + "_pro.fas\n")
             # step 2
-            new.write("t_coffee outputs/Pillar" + str(i) + "_pro.fas -output=pir\n")
-    with open("algndna_new/algndnaCommand.sh","w") as new:
-        new.write("#!/bin/bash\n\n")
+            f.write("t_coffee outputs/Pillar" + str(i) + "_pro.fas -output=pir\n")
+    with open("algndna_new/algndnaCommand.sh","w") as f:
+        f.write("#!/bin/bash\n\n")
         for i in number:
-            new.write(" ./algndna_new pir/Pillar"+str(i)+"_pro.pir output/Pillar"+str(i)+".fas -c:pir/"+directory+"/Pillar"+str(i)+"_CDS.fas -s\n")
+            f.write(" ./algndna_new pir/Pillar"+str(i)+"_pro.pir output/Pillar"+str(i)+".fas -c:pir/"+directory+"/Pillar"+str(i)+"_CDS.fas -s\n")
             #new.write(" ./algndna_new new/Pillar" + str(i) + "_pro.pir output/Pillar" + str(i) + ".fas -c:selectedFiles/Pillar" + str(i) + "_CDS.fas -s\n")
 
 
@@ -183,7 +183,7 @@ def main():
     directory = "selectedFiles"
 
     createScriptsIn1(List,directory)
-    #addGar()
+    addGar()
     select(List,directory)
 
 
