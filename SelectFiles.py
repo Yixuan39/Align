@@ -30,21 +30,20 @@ def GarMatching():
     return dictionary
 
 def GarMatching2():
-    numbers = range(0,5589)
     oldGeneDic = {}
     GarGeneDic = {}
-    for number in numbers:
-        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as old:
-            firstGene = old.readlines()
-            firstGene = firstGene[0][1:-1] # "-1" is to delete the "\n" at the end
-            subdic = {firstGene:number}
-            oldGeneDic.update(subdic)
+    for number in range(0,5589):
+        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as f:
+            for line in f:
+                if line[0] == '>':
+                    firstGene = line[1:-1] # "-1" is to delete the "\n" at the end
+                    oldGeneDic[firstGene] = number
+                    break
     #print(oldGeneDic)
 
     with open("TGD_reextract_ances_genes.txt", "r") as G:
         GarList = []
-        Gar = G.readlines()
-        for line in Gar:
+        for line in G:
             line = line[:-1] # bug "48" fixed by delete the "\n" at the end of the line
             line = line.split("\t")
             GarList.append(line)
