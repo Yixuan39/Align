@@ -8,17 +8,11 @@ This program select the file form "TGD_CDS" according to Dr. Conant's text file 
 
 def read():
     numberList=[]
-    newList=[]
-    with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as file:
-        n=file.readlines()
-        for i in n:
-            number = i[0:4]
+    with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as f:
+        for line in f: # same as readlines() then loop over, it's better because readlines() will read all lines and cache in memory
+            number = line.split()[0] # first element as number, do not assume number length
             numberList.append(number)
-    for i in numberList:
-        if "\t" in i:
-            i=i[:-1]
-        newList.append(i)
-    return newList
+    return numberList
 
 
 
