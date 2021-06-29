@@ -8,17 +8,11 @@ This program select the file form "TGD_CDS" according to Dr. Conant's text file 
 
 def read():
     numberList=[]
-    newList=[]
-    with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as file:
-        n=file.readlines()
-        for i in n:
-            number = i[0:4]
+    with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as f:
+        for line in f: # same as readlines() then loop over, it's better because readlines() will read all lines and cache in memory
+            number = line.split()[0] # first element as number, do not assume number length
             numberList.append(number)
-    for i in numberList:
-        if "\t" in i:
-            i=i[:-1]
-        newList.append(i)
-    return newList
+    return numberList
 
 
 
@@ -36,21 +30,20 @@ def GarMatching():
     return dictionary
 
 def GarMatching2():
-    numbers = range(0,5589)
     oldGeneDic = {}
     GarGeneDic = {}
-    for number in numbers:
-        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as old:
-            firstGene = old.readlines()
-            firstGene = firstGene[0][1:-1] # "-1" is to delete the "\n" at the end
-            subdic = {firstGene:number}
-            oldGeneDic.update(subdic)
+    for number in range(0,5589):
+        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as f:
+            for line in f:
+                if line[0] == '>':
+                    firstGene = line[1:-1] # "-1" is to delete the "\n" at the end
+                    oldGeneDic[firstGene] = number
+                    break
     #print(oldGeneDic)
 
     with open("TGD_reextract_ances_genes.txt", "r") as G:
         GarList = []
-        Gar = G.readlines()
-        for line in Gar:
+        for line in G:
             line = line[:-1] # bug "48" fixed by delete the "\n" at the end of the line
             line = line.split("\t")
             GarList.append(line)
@@ -84,7 +77,7 @@ def copyFile(number, directory, dic):
                         r.append(g[rowNum + 1])
                         r.append("\n")
                     rowNum += 1
-            with open(directory + "/Pillar"+str(number)+"_CDS.fas","w") as w:
+            with open(directory + "/Pillar"+str(number)+"_CDS.fas","w+") as w: # "w+" creates the file if it doesn't exist
                 for line in r:
                    w.write(line)
     except:
@@ -96,14 +89,9 @@ def addGar():
         os.mkdir("TGD_CDS_withGar")
     except:
         pass
-    ranges = range(0, 5589)
-    numbers = []
-    for i in ranges:
-        i = str(i)
-        numbers.append(i)
     dic = GarMatching2()
-    for number in numbers:
-        copyFile(number, "TGD_CDS_withGar",dic)
+    for number in range(0, 5589):
+        copyFile(str(number), "TGD_CDS_withGar",dic)
         
 def select(List,direcetory):
     try:
@@ -135,18 +123,18 @@ def createScriptsIn1(List,directory):
     except:
         pass
     number = List
-    with open("algndna_new/pir/tcoffeeCommand.sh","w") as new:
-        new.write("#!/bin/bash\n\n")
+    with open("algndna_new/pir/tcoffeeCommand.sh","w") as f:
+        f.write("#!/bin/bash\n\n")
         for i in number:
             # step 1
-            new.write("t_coffee -other_pg seq_reformat -in "+directory+"/Pillar"
+            f.write("t_coffee -other_pg seq_reformat -in "+directory+"/Pillar"
                       + str(i) + "_CDS.fas -action +translate -output fasta_aln > outputs/Pillar" + str(i) + "_pro.fas\n")
             # step 2
-            new.write("t_coffee outputs/Pillar" + str(i) + "_pro.fas -output=pir\n")
-    with open("algndna_new/algndnaCommand.sh","w") as new:
-        new.write("#!/bin/bash\n\n")
+            f.write("t_coffee outputs/Pillar" + str(i) + "_pro.fas -output=pir\n")
+    with open("algndna_new/algndnaCommand.sh","w") as f:
+        f.write("#!/bin/bash\n\n")
         for i in number:
-            new.write(" ./algndna_new pir/Pillar"+str(i)+"_pro.pir output/Pillar"+str(i)+".fas -c:pir/"+directory+"/Pillar"+str(i)+"_CDS.fas -s\n")
+            f.write(" ./algndna_new pir/Pillar"+str(i)+"_pro.pir output/Pillar"+str(i)+".fas -c:pir/"+directory+"/Pillar"+str(i)+"_CDS.fas -s\n")
             #new.write(" ./algndna_new new/Pillar" + str(i) + "_pro.pir output/Pillar" + str(i) + ".fas -c:selectedFiles/Pillar" + str(i) + "_CDS.fas -s\n")
 
 
@@ -189,7 +177,7 @@ def main():
     directory = "selectedFiles"
 
     createScriptsIn1(List,directory)
-    #addGar()
+    addGar()
     select(List,directory)
 
 
