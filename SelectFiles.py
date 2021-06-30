@@ -1,12 +1,15 @@
 import os
 
-
-
 """
 This program select the file form "TGD_CDS" according to Dr. Conant's text file "TGD_DrGaDupl_1plusloss_90per"
 """
 
 def read():
+    """
+    This function read the pillar numbers where there is at least one gene missing
+    but including zebrafish, stickleback fish, and gar, according to Gavin's orthology
+    inference output (TGD_DrGaDupl_1plusloss_90per.txt)
+    """
     numberList=[]
     with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as f:
         for line in f: # same as readlines() then loop over, it's better because readlines() will read all lines and cache in memory
@@ -17,19 +20,12 @@ def read():
 
 
 
-def GarMatching():
-    dictionary = {}
-    with open("TGD_reextract_ances_genes.txt","r") as old:
-        o = old.readlines()
-        for line in o:
-            newline = line.split("\t")
-            for string in newline[1:]:
-                if "ENSLOCG" in string:
-                    dic = {newline[0]:string}
-                    dictionary.update(dic)
-    return dictionary
-
 def GarMatching2():
+    """
+    This function catch the first gene of each dataset and match with correct pillar numbers
+    Then, according to Gavin's Gar gene names file, return a dictionary of pillar number mathching
+    gar sequence
+    """
     oldGeneDic = {}
     GarGeneDic = {}
     for number in range(0,5589):
@@ -60,6 +56,9 @@ def GarMatching2():
 
 
 def copyFile(number, directory, dic):
+    """
+    This function add the gar sequence to a individual dataset
+    """
     try:
         os.mkdir(directory)
     except:
@@ -85,6 +84,9 @@ def copyFile(number, directory, dic):
 
 
 def addGar():
+    """
+    add all gar sequence separately to all 5588 dataset.
+    """
     try:
         os.mkdir("TGD_CDS_withGar")
     except:
@@ -92,8 +94,14 @@ def addGar():
     dic = GarMatching2()
     for number in range(0, 5589):
         copyFile(str(number), "TGD_CDS_withGar",dic)
-        
+
+
+
 def select(List,direcetory):
+    """
+    This function selects the appropriate files from the whole data folder, according to
+    Gavin's text file.
+    """
     try:
         os.mkdir("algndna_new/pir/"+direcetory)
     except:
@@ -110,6 +118,9 @@ def select(List,direcetory):
 
 
 def createScriptsIn1(List,directory):
+    """
+    Create folders and scripts of commands needed for t-coffee and algndna_new software
+    """
     try:
         os.mkdir("algndna_new/pir")
     except:
@@ -138,28 +149,7 @@ def createScriptsIn1(List,directory):
             #new.write(" ./algndna_new new/Pillar" + str(i) + "_pro.pir output/Pillar" + str(i) + ".fas -c:selectedFiles/Pillar" + str(i) + "_CDS.fas -s\n")
 
 
-"""def jointList():
-    newList = []
-    dic = GarMatching2()
-    GarList = []
-    for i in dic:
-        GarList.append(i)
-    OldList = read()
-    for i in GarList:
-        if i in OldList:
-            newList.append(i)
-    with open("newList.txt","w") as new:
-        for number in newList:
-            new.write(number+"\n")
 
-
-def newList():
-    newList = []
-    with open("newList.txt","r") as o:
-        old=o.readlines()
-        for line in old:
-            newList.append(line[:-1])
-    return newList"""
 
 
 
@@ -169,10 +159,12 @@ def newList():
 def main():
     """Description of main() - what does this function do?  Does it run a 
 		program?  Does it execute test code?"""
+    # 45 Full gene dataset
     List45 = ['211', '214', '222', '223', '337', '479', '521', '526', '561', '735', '755', '852', '1050',
               '1053', '1215', '2129', '2158', '2210', '2214', '2321', '2358', '2371', '2382', '2861',
               '3278', '3295', '3309', '3337', '3346', '3347', '3390', '3994', '4025', '4031', '4063',
               '4268', '4287', '4494', '4553', '4570', '4932', '5153', '5233', '5316', '5550']
+    # 194 missing value dataset
     List = read()
     directory = "selectedFiles"
 
@@ -187,36 +179,3 @@ if __name__ == '__main__':
 
 
 
-
-"""
-dictionary = {}
-    with open("TGD_DrGaDupl_1plusloss_90per.txt","r") as o:
-        Fulldic = {}
-        Old = o.readlines()
-        FullList = []
-        for line in Old:
-            line = line.split("\t")
-            for i in line:
-                if i == "NONE":
-                    line.remove(i)
-                FullList.append(line)
-
-    with open("TGD_reextract_ances_genes.txt","r") as G:
-        GarList = []
-        Gar = G.readlines()
-        for line in Gar:
-            line = line.split("\t")
-            for i in line:
-                if i == "NONE":
-                    line.remove(i)
-                if "\n" in i:
-                    newi=i[:-1]
-                    line.remove(i)
-                    line.append(newi)
-            GarList.append(line)
-
-    for i in FullList:
-        print(i)
-        #for j in GarList:
-
-            #print(j[1])"""

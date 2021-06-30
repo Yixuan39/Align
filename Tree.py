@@ -3,6 +3,9 @@ from SelectFiles import *
 import os
 
 def qualify(List):
+    """
+    This function is to check if each dataset is qualified.
+    """
     number = List
     for i in number:
         with open("renamed/Pillar"+str(i)+"R.fasta","r") as old:
@@ -26,13 +29,12 @@ def qualify(List):
 # all data are qualified
 
 
-def Diff(li1, li2):
-    li_dif = [i for i in li1 + li2 if i not in li1 or i not in li2]
-    return li_dif
-
 
 def nameDic():
-
+    """
+    This function returns a dictionary which matches the pillar number and the
+    qualified gene name list
+    """
     with open("TGD_DrGaDupl_1plusloss_90per.txt","r") as new:
         n=new.readlines()
         dic = {}
@@ -50,6 +52,9 @@ def nameDic():
 
 
 def buildTree(directory,number):
+    """
+    This function create trees for each dataset
+    """
     dic = nameDic()
     gene = ["ENSTRUG","ENSTNIG","ENSGACG","ENSXMAG","ENSORLG","ENSONIG","ENSDARG","ENSAMXG"]
     node = "*"
@@ -99,30 +104,19 @@ def buildTree(directory,number):
 
 
 
-#        while "(,)" in treeStru:
-#            treeStru=treeStru.replace("(,)","()")
-#        while "(," in treeStru:
-#            treeStru=treeStru.replace("(,","(")
-#        while ",)N" in treeStru:
-#            treeStru=treeStru.replace(",)N",")N")
-
-
-#(((((ENSTRUG,ENSTNIG)N7,ENSGACG)N6,((ENSXMAG,ENSORLG)N5,ENSONIG)N4)N3,(ENSDARG,ENSAMXG)N2)N1,ENSLOCG)N0
-#(()N1,ENSLOCG)N0
-#(((((ENSTRUG,ENSTNIG)N7,ENSGACG)N6,((ENSXMAG,ENSORLG)N5,ENSONIG)N4)N3,(ENSDARG,ENSAMXG)N2)N1,ENSLOCG)N0
-
 
 
 def main():
-    """Description of main() - what does this function do?  Does it run a
-		program?  Does it execute test code?"""
+    """
+    The main function distribute each fasta and newick file into a pillar number folder
+    """
 
     List45 = ['211', '214', '222', '223', '337', '479', '521', '526', '561', '735', '755', '852', '1050',
               '1053', '1215', '2129', '2158', '2210', '2214', '2321', '2358', '2371', '2382', '2861',
               '3278', '3295', '3309', '3337', '3346', '3347', '3390', '3994', '4025', '4031', '4063',
               '4268', '4287', '4494', '4553', '4570', '4932', '5153', '5233', '5316', '5550']
     List = read()
-    #nameDic()
+    print(nameDic())
     directory = "TGD_CDS_new"
     numbers = List
     for number in numbers:
@@ -137,24 +131,11 @@ def main():
                 buildTree(directory,number)
             except:
                 print("no Pillar" + str(number))
-    #MGList = []
-    #for i in numbers:
-    #    MGList.append("MG"+i)
-    #print(MGList)
+
+
 
 
 if __name__ == '__main__':
     main()
 
 
-
-"""
-ENSTRUG = "ENSTRUG"
-    ENSTNIG = "ENSTNIG"
-    ENSGACG = "ENSGACG"
-    ENSXMAG = "ENSXMAG"
-    ENSORLG = "ENSORLG"
-    ENSONIG = "ENSONIG"
-    ENSDARG = "ENSDARG"
-    ENSAMXG = "ENSAMXG"
-"""
