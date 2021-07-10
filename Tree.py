@@ -49,15 +49,13 @@ def nameDic():
     return dic
 
 
-
-
 def buildTree(directory,number):
     """
     This function create trees for each dataset
     """
     dic = nameDic()
     gene = ["ENSTRUG","ENSTNIG","ENSGACG","ENSXMAG","ENSORLG","ENSONIG","ENSDARG","ENSAMXG"]
-    node = "*"
+    node = ["N7", "N6", "N5", "N4", "N3", "N2", "N1", "N0"]
 
     fakegene = []
     newgene = []
@@ -77,9 +75,7 @@ def buildTree(directory,number):
         elif ",)*" in treeStru:
             treeStru = treeStru.replace(",)*", ")*")
             j = 0
-        elif "(,)" in treeStru:
-            treeStru = treeStru.replace("(,)", "()")
-            j = 0
+        # Remove useless "(,)" replace.
         elif "()*" in treeStru:
             treeStru = treeStru.replace("()*", "")
             j = 0
@@ -91,20 +87,23 @@ def buildTree(directory,number):
             j = 0
         else:
             j = 1
-    #print(treeStru)
+    print(treeStru)
     for k in newgene:
         treeStru=treeStru.replace("gene",k,1)
 
-    nodeNum = treeStru.count("*") - 1
-    for l in range(0,nodeNum+1):
-        treeStru=treeStru.replace("*","N"+str(nodeNum-l),1)
+    #nodeNum = treeStru.count("*") - 1
+    #for l in range(0,nodeNum+1):
+    #    treeStru=treeStru.replace("*","N"+str(nodeNum-l),1)
+    print(fakegene)
+
+
 
 
         
-    if "*" in treeStru:
-        print(treeStru)
-    with open(directory+"/"+str(number)+"/Pillar"+str(number)+".newick","w") as new:
-        new.write(treeStru)
+    #if "*" in treeStru:
+    #    print(treeStru)
+    #with open(directory+"/"+str(number)+"/Pillar"+str(number)+".newick","w") as new:
+    #    new.write(treeStru)
 
 
 
