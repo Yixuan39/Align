@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88d090ef-d296-401b-9c55-0a7aa3c50c31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/Node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TGD_CDS_new/1056/Pillar1056.newick" beforeDir="false" afterPath="$PROJECT_DIR$/TGD_CDS_new/1056/Pillar1056.newick" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TGD_CDS_new/1058/Pillar1058.newick" beforeDir="false" afterPath="$PROJECT_DIR$/TGD_CDS_new/1058/Pillar1058.newick" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TGD_CDS_new/1059/Pillar1059.newick" beforeDir="false" afterPath="$PROJECT_DIR$/TGD_CDS_new/1059/Pillar1059.newick" afterDir="false" />
@@ -365,6 +364,8 @@
       <workItem from="1625831702966" duration="4658000" />
       <workItem from="1625886705567" duration="9280000" />
       <workItem from="1625984026806" duration="1952000" />
+      <workItem from="1626349206059" duration="1369000" />
+      <workItem from="1626435268940" duration="2036000" />
     </task>
     <servers />
   </component>
@@ -374,7 +375,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Align$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1624121683283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Align$uploadFiles.coverage" NAME="uploadFiles Coverage Results" MODIFIED="1624351936969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../paralogExchange" />
-    <SUITE FILE_PATH="coverage/Align$Tree.coverage" NAME="Tree Coverage Results" MODIFIED="1625985073561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Align$Tree.coverage" NAME="Tree Coverage Results" MODIFIED="1626437213710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Align$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1625024964100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Align$scratch_6.coverage" NAME="scratch_6 Coverage Results" MODIFIED="1625936109592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Align$Node.coverage" NAME="Node Coverage Results" MODIFIED="1625984248605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
