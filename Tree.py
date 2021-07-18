@@ -1,4 +1,4 @@
-from Node import addNodes
+#from Node import addNodes
 from SelectFiles import *
 import os
 
@@ -179,11 +179,17 @@ def buildTree(number):
 		elif "((gene,gene)*)*" in treeStru:
 			treeStru = treeStru.replace("((gene,gene)*)*", "(gene,gene)*")  # special case
 			j = 0
+		#elif "(((gene,gene)*,gene)*)*" in treeStru:
+		#	treeStru = treeStru.replace("(((gene,gene)*,gene)*)*", "((gene,gene)*,gene)*")
 		else:
 			j = 1
 	# print(treeStru)
 	for k in newgene:
 		treeStru = treeStru.replace("gene", k, 1)
+
+	# add a special case
+	if treeStru == "(((((ENSTRUG,ENSTNIG)*,ENSGACG)*)*,(ENSDARG,ENSAMXG)*)*,ENSLOCG)*":
+		treeStru = "((((ENSTRUG,ENSTNIG)*,ENSGACG)*,(ENSDARG,ENSAMXG)*)*,ENSLOCG)*"
 
 	# nodeList = addNodes(fakegene)
 
@@ -197,20 +203,40 @@ def buildTree(number):
 	#	new.write(treeStru)
 	return treeStru
 
-def buildTree2(numbers):
-	directory = "treeList.txt"
+def printTree(numbers):
+	os.makedirs("Trees", exist_ok=True)
+	directory = "Trees/"
+	# clean directory
+	for file in os.listdir(directory):
+		os.remove(directory + file)
 	treeList = []
 	for number in numbers:
 		treeList.append(buildTree(number))
 	overlapN = list(set(treeList))
 	for i in overlapN:
 		n = treeList.count(i)
-		with open(directory, "a+") as new:
+		with open(directory + "TreePatterns.txt", "a+") as tp:
+			tp.write(i + "\n")
+			tp.write(i + "\n")
+		with open(directory + "TreeStatistics.txt", "a+") as new:
 			new.write(i + "\t" + str(n) + "\n")
-	with open(directory, "a+") as new:
+	with open(directory + "TreeStatistics.txt", "a+") as new:
 		new.write("Total " + str(len(overlapN)) + " patterns.")
 	new.close()
 
+def NodeNames(directory, number):
+	dic = {}
+	with open("TreePatterns_editByHand.txt") as f:
+		file = f.readlines()
+		for i in range(0, len(file), 2):
+			dic.update({file[i][:-1]:file[i + 1][:-1]})
+	f.close()
+	treeStru0 = buildTree(number)
+	treeStru = dic[treeStru0]
+
+
+	with open(directory + "/" + str(number) + "/Pillar" + str(number) + ".newick", "w") as new:
+		new.write(treeStru)
 
 	
 
@@ -227,7 +253,7 @@ def main():
 	List = read()
 	directory = "TGD_CDS_new"
 	numbers = List
-	"""for number in numbers:
+	for number in numbers:
 		file = os.path.exists("renamed/Pillar" + str(number) + "R.fasta")
 		if file:
 			try:
@@ -237,9 +263,12 @@ def main():
 						for line in old:
 							new.write(line)
 				#buildTree(directory, number)
+				NodeNames(directory, number)
 			except:
-				print("no Pillar" + str(number))"""
-	buildTree2(numbers)
+				print("no Pillar" + str(number))
+	#printTree(numbers)
+	NodeNames(directory, "455")
+
 
 
 if __name__ == '__main__':
