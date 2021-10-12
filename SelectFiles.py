@@ -102,12 +102,11 @@ def select(List,direcetory):
     This function selects the appropriate files from the whole data folder, according to
     Gavin's text file.
     """
-    try:
-        os.mkdir("algndna_new/pir/"+direcetory)
-    except:
-        pass
+
+    os.makedirs("algndna_new/pir/"+direcetory, exist_ok=True)
     numbers = List
     for number in numbers:
+        print(number)
         with open("TGD_CDS_withGar/Pillar"+str(number)+"_CDS.fas","r") as old:
             with open("algndna_new/pir/"+direcetory+"/Pillar"+str(number)+"_CDS.fas", "w") as new:
                 o = old.readlines()
@@ -165,11 +164,15 @@ def main():
               '3278', '3295', '3309', '3337', '3346', '3347', '3390', '3994', '4025', '4031', '4063',
               '4268', '4287', '4494', '4553', '4570', '4932', '5153', '5233', '5316', '5550']
     # 194 missing value dataset
-    List = read()
+    List = List45 + read()
+    # List = [*range(0,5589)]
+    print(List)
     directory = "selectedFiles"
-
+    print("step1")
     createScriptsIn1(List,directory)
-    addGar()
+    print("step2")
+    #addGar()
+    print("step3")
     select(List,directory)
 
 

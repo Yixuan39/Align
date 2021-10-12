@@ -140,7 +140,7 @@ TPELLENLSP-
 *
 >P1;ENSTRUG00000013005
 
-A----------------AA---------------------ALL-LFSCLH
+A----------------AA---A------------------LL-LFSCLH
 AVPPAVL-------------------------------------------
 ------------GSALHRGPSPHITSCVSANMETFHCRWNVSSLQS----
 GDLRLFYINKK----HPQT--PPNEWRECPHYSAQ-SPNECFFDENHTTV

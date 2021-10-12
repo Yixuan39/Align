@@ -1,5 +1,50 @@
 #!/bin/bash
 
+ ./algndna_new pir/Pillar211_pro.pir output/Pillar211.fas -c:pir/selectedFiles/Pillar211_CDS.fas -s
+ ./algndna_new pir/Pillar214_pro.pir output/Pillar214.fas -c:pir/selectedFiles/Pillar214_CDS.fas -s
+ ./algndna_new pir/Pillar222_pro.pir output/Pillar222.fas -c:pir/selectedFiles/Pillar222_CDS.fas -s
+ ./algndna_new pir/Pillar223_pro.pir output/Pillar223.fas -c:pir/selectedFiles/Pillar223_CDS.fas -s
+ ./algndna_new pir/Pillar337_pro.pir output/Pillar337.fas -c:pir/selectedFiles/Pillar337_CDS.fas -s
+ ./algndna_new pir/Pillar479_pro.pir output/Pillar479.fas -c:pir/selectedFiles/Pillar479_CDS.fas -s
+ ./algndna_new pir/Pillar521_pro.pir output/Pillar521.fas -c:pir/selectedFiles/Pillar521_CDS.fas -s
+ ./algndna_new pir/Pillar526_pro.pir output/Pillar526.fas -c:pir/selectedFiles/Pillar526_CDS.fas -s
+ ./algndna_new pir/Pillar561_pro.pir output/Pillar561.fas -c:pir/selectedFiles/Pillar561_CDS.fas -s
+ ./algndna_new pir/Pillar735_pro.pir output/Pillar735.fas -c:pir/selectedFiles/Pillar735_CDS.fas -s
+ ./algndna_new pir/Pillar755_pro.pir output/Pillar755.fas -c:pir/selectedFiles/Pillar755_CDS.fas -s
+ ./algndna_new pir/Pillar852_pro.pir output/Pillar852.fas -c:pir/selectedFiles/Pillar852_CDS.fas -s
+ ./algndna_new pir/Pillar1050_pro.pir output/Pillar1050.fas -c:pir/selectedFiles/Pillar1050_CDS.fas -s
+ ./algndna_new pir/Pillar1053_pro.pir output/Pillar1053.fas -c:pir/selectedFiles/Pillar1053_CDS.fas -s
+ ./algndna_new pir/Pillar1215_pro.pir output/Pillar1215.fas -c:pir/selectedFiles/Pillar1215_CDS.fas -s
+ ./algndna_new pir/Pillar2129_pro.pir output/Pillar2129.fas -c:pir/selectedFiles/Pillar2129_CDS.fas -s
+ ./algndna_new pir/Pillar2158_pro.pir output/Pillar2158.fas -c:pir/selectedFiles/Pillar2158_CDS.fas -s
+ ./algndna_new pir/Pillar2210_pro.pir output/Pillar2210.fas -c:pir/selectedFiles/Pillar2210_CDS.fas -s
+ ./algndna_new pir/Pillar2214_pro.pir output/Pillar2214.fas -c:pir/selectedFiles/Pillar2214_CDS.fas -s
+ ./algndna_new pir/Pillar2321_pro.pir output/Pillar2321.fas -c:pir/selectedFiles/Pillar2321_CDS.fas -s
+ ./algndna_new pir/Pillar2358_pro.pir output/Pillar2358.fas -c:pir/selectedFiles/Pillar2358_CDS.fas -s
+ ./algndna_new pir/Pillar2371_pro.pir output/Pillar2371.fas -c:pir/selectedFiles/Pillar2371_CDS.fas -s
+ ./algndna_new pir/Pillar2382_pro.pir output/Pillar2382.fas -c:pir/selectedFiles/Pillar2382_CDS.fas -s
+ ./algndna_new pir/Pillar2861_pro.pir output/Pillar2861.fas -c:pir/selectedFiles/Pillar2861_CDS.fas -s
+ ./algndna_new pir/Pillar3278_pro.pir output/Pillar3278.fas -c:pir/selectedFiles/Pillar3278_CDS.fas -s
+ ./algndna_new pir/Pillar3295_pro.pir output/Pillar3295.fas -c:pir/selectedFiles/Pillar3295_CDS.fas -s
+ ./algndna_new pir/Pillar3309_pro.pir output/Pillar3309.fas -c:pir/selectedFiles/Pillar3309_CDS.fas -s
+ ./algndna_new pir/Pillar3337_pro.pir output/Pillar3337.fas -c:pir/selectedFiles/Pillar3337_CDS.fas -s
+ ./algndna_new pir/Pillar3346_pro.pir output/Pillar3346.fas -c:pir/selectedFiles/Pillar3346_CDS.fas -s
+ ./algndna_new pir/Pillar3347_pro.pir output/Pillar3347.fas -c:pir/selectedFiles/Pillar3347_CDS.fas -s
+ ./algndna_new pir/Pillar3390_pro.pir output/Pillar3390.fas -c:pir/selectedFiles/Pillar3390_CDS.fas -s
+ ./algndna_new pir/Pillar3994_pro.pir output/Pillar3994.fas -c:pir/selectedFiles/Pillar3994_CDS.fas -s
+ ./algndna_new pir/Pillar4025_pro.pir output/Pillar4025.fas -c:pir/selectedFiles/Pillar4025_CDS.fas -s
+ ./algndna_new pir/Pillar4031_pro.pir output/Pillar4031.fas -c:pir/selectedFiles/Pillar4031_CDS.fas -s
+ ./algndna_new pir/Pillar4063_pro.pir output/Pillar4063.fas -c:pir/selectedFiles/Pillar4063_CDS.fas -s
+ ./algndna_new pir/Pillar4268_pro.pir output/Pillar4268.fas -c:pir/selectedFiles/Pillar4268_CDS.fas -s
+ ./algndna_new pir/Pillar4287_pro.pir output/Pillar4287.fas -c:pir/selectedFiles/Pillar4287_CDS.fas -s
+ ./algndna_new pir/Pillar4494_pro.pir output/Pillar4494.fas -c:pir/selectedFiles/Pillar4494_CDS.fas -s
+ ./algndna_new pir/Pillar4553_pro.pir output/Pillar4553.fas -c:pir/selectedFiles/Pillar4553_CDS.fas -s
+ ./algndna_new pir/Pillar4570_pro.pir output/Pillar4570.fas -c:pir/selectedFiles/Pillar4570_CDS.fas -s
+ ./algndna_new pir/Pillar4932_pro.pir output/Pillar4932.fas -c:pir/selectedFiles/Pillar4932_CDS.fas -s
+ ./algndna_new pir/Pillar5153_pro.pir output/Pillar5153.fas -c:pir/selectedFiles/Pillar5153_CDS.fas -s
+ ./algndna_new pir/Pillar5233_pro.pir output/Pillar5233.fas -c:pir/selectedFiles/Pillar5233_CDS.fas -s
+ ./algndna_new pir/Pillar5316_pro.pir output/Pillar5316.fas -c:pir/selectedFiles/Pillar5316_CDS.fas -s
+ ./algndna_new pir/Pillar5550_pro.pir output/Pillar5550.fas -c:pir/selectedFiles/Pillar5550_CDS.fas -s
  ./algndna_new pir/Pillar228_pro.pir output/Pillar228.fas -c:pir/selectedFiles/Pillar228_CDS.fas -s
  ./algndna_new pir/Pillar271_pro.pir output/Pillar271.fas -c:pir/selectedFiles/Pillar271_CDS.fas -s
  ./algndna_new pir/Pillar285_pro.pir output/Pillar285.fas -c:pir/selectedFiles/Pillar285_CDS.fas -s

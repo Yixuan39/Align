@@ -156,12 +156,14 @@ def main():
               '1053', '1215', '2129', '2158', '2210', '2214', '2321', '2358', '2371', '2382', '2861',
               '3278', '3295', '3309', '3337', '3346', '3347', '3390', '3994', '4025', '4031', '4063',
               '4268', '4287', '4494', '4553', '4570', '4932', '5153', '5233', '5316', '5550']
-    List = read()
+    List = read() + List45
 
 
 
-    #if len(check(List)) == 0:
-    #    print("all data have 2 paralog1, 2 paralog2, and an outgroup")
+    if len(check(List)) == 0:
+        print("all data have 2 paralog1, 2 paralog2, and an outgroup")
+    else:
+        print("*")
     oneLine(List)
     removeGapAll(List)
     matchName(List)
