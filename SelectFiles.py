@@ -63,9 +63,10 @@ def copyFile(number, directory, dic):
         os.mkdir(directory)
     except:
         pass
+    os.makedirs()
     #dic = GarMatching2()
     try:
-        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as read:
+        with open("TGD_CDS/Pillar"+str(number)+"_CDS.fas","r") as r:
             r = read.readlines()
             rowNum=0
             with open("lepisosteus_oculatus_dna.fas", "r") as Gar:

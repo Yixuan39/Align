@@ -1,65 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70afbda-0543-48f3-b1e7-a241e88863f2" name="Default Changelist" comment="">
+    <list default="true" id="9dc3cefe-ca0a-4742-becb-17d21ae1b76a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Align.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Align.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/SelectFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/algndnaCommand.sh" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/algndnaCommand.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar1238.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar1238.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar1271.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar1271.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar3934.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar3934.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar3955.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar3955.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar4233.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar4233.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar455.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar455.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar4927.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar4927.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/output/Pillar4948.fas" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/output/Pillar4948.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar1238_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar1238_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar1271_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar1271_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar3934_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar3934_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar3955_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar3955_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar4233_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar4233_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar455_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar455_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar4927_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar4927_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/Pillar4948_pro.pir" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/Pillar4948_pro.pir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/pir/tcoffeeCommand.sh" beforeDir="false" afterPath="$PROJECT_DIR$/algndna_new/pir/tcoffeeCommand.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline.bash" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algndna_new/algndna_new" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reAlign.py" beforeDir="false" afterPath="$PROJECT_DIR$/reAlign.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1238_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1238_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1271_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1271_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3934_gapsClean.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3934_gapsClean.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3934_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3934_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3955_gapsClean.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3955_gapsClean.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3955_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3955_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4233_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4233_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar455_gapsClean.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar455_gapsClean.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar455_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar455_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4927_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4927_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4948_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4948_oneLine.fas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renamed/Pillar3934R.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/renamed/Pillar3934R.fasta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renamed/Pillar3955R.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/renamed/Pillar3955R.fasta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renamed/Pillar455R.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/renamed/Pillar455R.fasta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ysVK8blym3psXyXKF6IlPCxI2w" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C0BXMeAbTwwBjFTlWkoo0gEEj1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.izhangzhihao.rainbow.fart.settings.RainbowFartConfigurable&quot;
+  }
+}</component>
   <component name="RunManager" selected="Python.reAlign">
     <configuration name="SelectFiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Align" />
@@ -115,28 +105,33 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d70afbda-0543-48f3-b1e7-a241e88863f2" name="Default Changelist" comment="" />
-      <created>1633040220835</created>
+      <changelist id="9dc3cefe-ca0a-4742-becb-17d21ae1b76a" name="Changes" comment="" />
+      <created>1657929663043</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633040220835</updated>
-      <workItem from="1633040248444" duration="783000" />
-      <workItem from="1633041304936" duration="976000" />
-      <workItem from="1633461291389" duration="1421000" />
-      <workItem from="1633653369529" duration="564000" />
-      <workItem from="1633714459753" duration="435000" />
-      <workItem from="1633832245209" duration="5000" />
-      <workItem from="1633832264968" duration="802000" />
+      <updated>1657929663043</updated>
+      <workItem from="1657929665374" duration="2046000" />
+      <workItem from="1657936992041" duration="745000" />
+      <workItem from="1658257439210" duration="1300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Align$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1633461483120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SelectFiles_py$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1633653467117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Align$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1633042098182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/reAlign_py$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1633714487339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Align$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1658261677200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Align$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1657935640015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
