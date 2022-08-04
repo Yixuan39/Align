@@ -4,15 +4,665 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dc3cefe-ca0a-4742-becb-17d21ae1b76a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Align.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Align.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9dc3cefe-ca0a-4742-becb-17d21ae1b76a" name="Changes" comment="make program automatic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/SelectFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algndna_new/algndna_new" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reAlign.py" beforeDir="false" afterPath="$PROJECT_DIR$/reAlign.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1050_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1050_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1050_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1053_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1053_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1053_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1056_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1056_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1056_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1058_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1058_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1058_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1059_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1059_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1059_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1060_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1060_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1060_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1069_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1069_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1069_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1076_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1076_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1076_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1079_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1079_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1079_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1081_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1081_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1081_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1085_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1085_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1085_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1095_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1095_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1095_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1098_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1098_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1098_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1115_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1115_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1115_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1161_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1161_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1161_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1214_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1214_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1214_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1215_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1215_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1215_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1238_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1238_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1238_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1271_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1271_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1271_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1275_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1275_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1275_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1276_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1276_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1276_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1277_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1277_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1277_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1279_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1279_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1279_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1280_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1280_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1280_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1297_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1297_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1297_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1301_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1301_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1301_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1309_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1309_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1309_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1315_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1315_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1315_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1351_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1351_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1351_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1363_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1363_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1363_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1393_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1393_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1393_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1412_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1412_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1412_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1431_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1431_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1431_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1432_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1432_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1432_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1554_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1554_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1554_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1557_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar1557_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar1557_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2056_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2056_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2056_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2064_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2064_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2064_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2065_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2065_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2065_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2068_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2068_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2068_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2070_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2070_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2070_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2088_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2088_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2088_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2091_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2091_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2091_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2102_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2102_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2102_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2116_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2116_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2116_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2117_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2117_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2117_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2118_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2118_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2118_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar211_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar211_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar211_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2127_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2127_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2127_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2129_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2129_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2129_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2140_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2140_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2140_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2141_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2141_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2141_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2142_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2142_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2142_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar214_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar214_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar214_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2158_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2158_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2158_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2169_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2169_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2169_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2210_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2210_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2210_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2214_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2214_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2214_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar222_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar222_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar222_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2233_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2233_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2233_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar223_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar223_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar223_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar228_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar228_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar228_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2321_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2321_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2321_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2337_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2337_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2337_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2338_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2338_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2338_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2340_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2340_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2340_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2358_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2358_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2358_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2371_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2371_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2371_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2379_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2379_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2379_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2382_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2382_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2382_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2517_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2517_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2517_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2529_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2529_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2529_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2535_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2535_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2535_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar271_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar271_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar271_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2782_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2782_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2782_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2788_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2788_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2788_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2794_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2794_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2794_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2842_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2842_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2842_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2851_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2851_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2851_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2852_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2852_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2852_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2853_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2853_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2853_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar285_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar285_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar285_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2861_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2861_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2861_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2862_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2862_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2862_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2863_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2863_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2863_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar287_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar287_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar287_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2882_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2882_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2882_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2885_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2885_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2885_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2904_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2904_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2904_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2907_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2907_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2907_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2954_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2954_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2954_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2957_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2957_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2957_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2958_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar2958_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar2958_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar295_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar295_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar295_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3011_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3011_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3011_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3014_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3014_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3014_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3015_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3015_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3015_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3037_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3037_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3037_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3278_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3278_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3278_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3286_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3286_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3286_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3292_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3292_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3292_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3295_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3295_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3295_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3300_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3300_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3300_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3308_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3308_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3308_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3309_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3309_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3309_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3310_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3310_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3310_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3337_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3337_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3337_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3346_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3346_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3346_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3347_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3347_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3347_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar335_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar335_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar335_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar337_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar337_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar337_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3382_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3382_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3382_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3388_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3388_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3388_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3390_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3390_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3390_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar339_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar339_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar339_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3442_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3442_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3442_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3452_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3452_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3452_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3453_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3453_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3453_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3456_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3456_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3456_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3476_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3476_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3476_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3486_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3486_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3486_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar357_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar357_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar357_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar358_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar358_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar358_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3651_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3651_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3651_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar366_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar366_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar366_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar367_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar367_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar367_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3805_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3805_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3805_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3814_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3814_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3814_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3934_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3934_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3934_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3950_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3950_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3950_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3955_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3955_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3955_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3978_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3978_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3978_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3994_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar3994_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar3994_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4002_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4002_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4002_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4006_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4006_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4006_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4023_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4023_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4023_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4025_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4025_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4025_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4031_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4031_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4031_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4050_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4050_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4050_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4053_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4053_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4053_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4055_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4055_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4055_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4060_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4060_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4060_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4063_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4063_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4063_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4233_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4233_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4233_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4242_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4242_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4242_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4268_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4268_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4268_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4287_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4287_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4287_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4290_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4290_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4290_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4311_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4311_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4311_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4312_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4312_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4312_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4322_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4322_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4322_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4488_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4488_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4488_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4494_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4494_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4494_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4499_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4499_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4499_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4516_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4516_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4516_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4527_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4527_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4527_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4553_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4553_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4553_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar455_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar455_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar455_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4568_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4568_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4568_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4570_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4570_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4570_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4609_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4609_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4609_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4657_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4657_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4657_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4686_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4686_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4686_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4698_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4698_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4698_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4700_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4700_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4700_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4722_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4722_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4722_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4726_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4726_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4726_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar479_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar479_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar479_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4883_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4883_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4883_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4923_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4923_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4923_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4924_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4924_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4924_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4927_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4927_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4927_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4932_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4932_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4932_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4933_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4933_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4933_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4948_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4948_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4948_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4978_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4978_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4978_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4992_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar4992_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar4992_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar505_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar505_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar505_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5105_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5105_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5105_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5112_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5112_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5112_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5149_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5149_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5149_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5153_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5153_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5153_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar518_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar518_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar518_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5209_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5209_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5209_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar521_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar521_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar521_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5232_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5232_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5232_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5233_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5233_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5233_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5262_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5262_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5262_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5267_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5267_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5267_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar526_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar526_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar526_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5308_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5308_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5308_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar530_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar530_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar530_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5313_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5313_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5313_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5315_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5315_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5315_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5316_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5316_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5316_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5317_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5317_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5317_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5318_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5318_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5318_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5320_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5320_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5320_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5325_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5325_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5325_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5341_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5341_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5341_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5362_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5362_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5362_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5370_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5370_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5370_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar540_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar540_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar540_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5412_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5412_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5412_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar547_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar547_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar547_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5546_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5546_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5546_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5550_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5550_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5550_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5552_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5552_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5552_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5567_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5567_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5567_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5572_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5572_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5572_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5583_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar5583_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar5583_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar561_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar561_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar561_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar725_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar725_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar725_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar728_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar728_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar728_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar729_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar729_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar729_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar730_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar730_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar730_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar731_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar731_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar731_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar733_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar733_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar733_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar735_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar735_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar735_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar736_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar736_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar736_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar738_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar738_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar738_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar742_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar742_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar742_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar755_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar755_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar755_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar788_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar788_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar788_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar790_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar790_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar790_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar802_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar802_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar802_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar809_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar809_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar809_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar851_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar851_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar851_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar852_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar852_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar852_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar858_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar858_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar858_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar864_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar864_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar864_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar919_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar919_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar919_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar958_gapsClean.fas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reformatFolder/Pillar958_oneLine.fas" beforeDir="false" afterPath="$PROJECT_DIR$/reformatFolder/Pillar958_oneLine.fas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1056R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1058R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1059R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1060R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1069R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1076R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1079R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1081R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1085R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1095R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1098R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1115R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1161R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1214R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1238R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1271R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1275R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1276R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1277R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1279R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1280R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1297R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1301R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1309R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1315R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1351R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1363R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1393R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1412R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1431R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1432R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1554R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar1557R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2056R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2064R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2065R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2068R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2070R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2088R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2091R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2102R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2116R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2117R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2118R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2127R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2140R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2141R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2142R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2169R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2233R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar228R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2337R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2338R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2340R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2379R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2517R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2529R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2535R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar271R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2782R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2788R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2794R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2842R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2851R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2852R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2853R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar285R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2862R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2863R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar287R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2882R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2885R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2904R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2907R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2954R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2957R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar2958R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar295R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3011R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3014R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3015R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3037R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3286R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3292R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3300R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3308R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3310R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar335R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3382R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3388R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar339R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3442R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3452R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3453R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3456R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3476R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3486R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar357R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar358R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3651R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar366R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar367R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3805R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3814R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3934R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3950R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3955R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar3978R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4002R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4006R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4023R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4050R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4053R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4055R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4060R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4233R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4242R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4290R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4311R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4312R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4322R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4488R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4499R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4516R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4527R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar455R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4568R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4609R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4657R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4686R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4698R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4700R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4722R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4726R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4883R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4923R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4924R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4927R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4933R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4948R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4978R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar4992R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar505R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5105R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5112R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5149R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar518R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5209R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5232R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5262R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5267R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5308R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar530R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5313R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5315R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5317R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5318R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5320R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5325R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5341R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5362R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5370R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar540R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5412R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar547R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5546R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5552R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5567R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5572R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar5583R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar725R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar728R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar729R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar730R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar731R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar733R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar736R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar738R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar742R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar788R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar790R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar802R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar809R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar851R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar858R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar864R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar919R.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renamed/Pillar958R.fasta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +763,24 @@
       <workItem from="1657929665374" duration="2046000" />
       <workItem from="1657936992041" duration="745000" />
       <workItem from="1658257439210" duration="1300000" />
+      <workItem from="1659538423627" duration="8178000" />
+      <workItem from="1659645801743" duration="6838000" />
     </task>
+    <task id="LOCAL-00001" summary="move algndna old version">
+      <created>1659538480208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659538480208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="make program automatic">
+      <created>1659648511838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659648511838</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,8 +797,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="move algndna old version" />
+    <MESSAGE value="make program automatic" />
+    <option name="LAST_COMMIT_MESSAGE" value="make program automatic" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Align$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1658261677200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Align$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1657935640015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Align$reAlign.coverage" NAME="reAlign Coverage Results" MODIFIED="1659652457148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Align$SelectFiles.coverage" NAME="SelectFiles Coverage Results" MODIFIED="1659647905022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
