@@ -1,3 +1,4 @@
+#!/bin/python3
 import os
 import re
 """
@@ -114,6 +115,112 @@ def select(List,direcetory):
                 for i in o:
                     new.write(i)
 
+def clean_seq(file, path_in = "algndna_new/output", path_out = "Aligned_files"):
+    with open(path_in + "/"+ file,"r") as old:
+        out = []
+        for line in old.readlines():
+            if ">" not in line:
+                line = line[:-1]
+            else:
+                line = "\n" + line
+            out.append(line)
+        out[0]=out[0][1:] # Delete the first "\n"
+        out = ''.join(out)
+        out = out.split('\n')
+        out = removeGap(out)
+        with open(path_out + "/" + file.replace("fas", "fasta"),"w") as new:
+            for line in out:
+                new.write(line + '\n')
+
+def listGap(file):
+    # a list of index where there is at least one gap in a column
+    out = []
+    for line in file:
+        if ">" not in line:
+            index = 0
+            for i in line:
+                if i == "-":
+                    out.append(index)
+                index += 1
+        out = list(set(out))
+    return out
+
+def removeGap(file):
+    list = listGap(file)
+    out = []
+    for line in file:
+        newline = ""
+        if ">" in line:
+            newline = line
+        else:
+            for i in range(0,len(line)):
+                if i not in list:
+                    newline += line[i]
+        out.append(newline)
+    return out
+
+def nameDic():
+    with open("TGD_DrGaDupl_1plusloss_90per.txt","r") as new:
+        n=new.readlines()
+        dic = {}
+        for line in n:
+            subdic1={}
+            newline = line.split("\t")
+            for i in newline[2:10]:
+                subdic1.update({i:"01"})
+            for j in newline[10:18]:
+                subdic1.update({j:"02"})
+            dic.update({newline[0]:subdic1})
+    return dic
+
+def matchName(List):
+    dic = nameDic()
+    number = List
+    for i in number:
+        try:
+            with open("reformatFolder/Pillar"+str(i)+"_gapsClean.fas","r") as old:
+                rename = []
+                o = old.readlines()
+                for line in o:
+                    if ">" in line:
+                        if "ENSLOCG" in line:
+                            line = ">ENSLOCG01" + "\n"
+                        else:
+                            line = line[0:8] + dic[str(i)][line[1:19]] +"\n"
+                    rename.append(line)
+                with open("renamed/Pillar"+str(i)+"R.fasta","w") as new:
+                    for line in rename:
+                        new.write(line)
+        except:
+            print("no Pillar"+str(i))
+
+def check(List):
+    number = List
+    #number = range(0,5589)
+    output = []
+    unQ = []
+    for i in number:
+        with open("algndna_new/output/" + i,"r") as o:
+            paralog1 = 0
+            paralog2 = 0
+            outgroup = 0
+            old = o.readlines()
+            for line in old:
+                if ">" in line:
+                    if 'ENSGACG' in line:
+                        paralog1 += 1
+                    elif 'ENSDARG' in line:
+                        paralog2 += 1
+                    elif 'ENSLOCG' in line:
+                        outgroup += 1
+            if paralog1 == 2:
+                if paralog2 == 2:
+                    if outgroup == 1:
+                        output.append(i)
+    for i in output:
+        if i not in List:
+            unQ.append(i)
+    return unQ
 
 
 
@@ -145,6 +252,21 @@ def main():
         os.system("cd algndna_new\n ./algndna_new pir/" + file.replace('_CDS.fas', '') + "_pro.pir output/"
                   + file.replace('_CDS.fas', '') + ".fas -c:pir/" + directory + "/" + file + " -s\n")
 
+# Clean Gaps
+    path_in = "algndna_new/output"
+    List = os.listdir(path_in)
+
+    if len(check(List)) == 0:
+        print("all data have 2 paralog1, 2 paralog2, and an outgroup")
+    else:
+        print("*")
+    output_folder = 'Aligned_files'
+    os.makedirs(output_folder, exist_ok=True)
+    for file in List:
+        try:
+            clean_seq(file, path_out=output_folder)
+        except:
+            print(file)
 
 if __name__ == '__main__':
     main()
