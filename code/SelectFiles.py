@@ -8,14 +8,14 @@ This program select the file form "TGD_CDS" according to Dr. Conant's text file 
 def num_sort(test_string):
     return list(map(int, re.findall(r'\d+', test_string)))[0]
 
-def read():
+def read(file = "../content_file/TGD_DrGaDupl_1plusloss_90per.txt"):
     """
     This function read the pillar numbers where there is at least one gene missing
     but including zebrafish, stickleback fish, and gar, according to Gavin's orthology
     inference output (TGD_DrGaDupl_1plusloss_90per.txt)
     """
     numberList=[]
-    with open("TGD_DrGaDupl_1plusloss_90per.txt", "r") as f:
+    with open(file, "r") as f:
         for line in f: # same as readlines() then loop over, it's better because readlines() will read all lines and cache in memory
             number = line.split()[0] # first element as number, do not assume number length
             numberList.append(number)
@@ -24,7 +24,7 @@ def read():
 
 
 
-def GarMatching2(List):
+def GarMatching2(path, files, GarNames = "../content_file/TGD_reextract_ances_genes.txt"):
     """
     This function catch the first gene of each dataset and match with correct pillar numbers
     Then, according to Gavin's Gar gene names file, return a dictionary of pillar number mathching
@@ -32,8 +32,8 @@ def GarMatching2(List):
     """
     oldGeneDic = {}
     GarGeneDic = {}
-    for number in List:
-        with open("TGD_CDS/"+str(number),"r") as f:
+    for number in files:
+        with open(path+str(number),"r") as f:
             for line in f:
                 if line[0] == '>':
                     firstGene = line[1:-1] # "-1" is to delete the "\n" at the end
@@ -41,7 +41,7 @@ def GarMatching2(List):
                     break
     #print(oldGeneDic)
 
-    with open("TGD_reextract_ances_genes.txt", "r") as G:
+    with open(GarNames, "r") as G:
         GarList = []
         for line in G:
             line = line[:-1] # bug "48" fixed by delete the "\n" at the end of the line
@@ -54,22 +54,17 @@ def GarMatching2(List):
                     GarGeneDic.update(subdic2)
     return GarGeneDic
 
-
-
-
-
-
-def copyFile(name, directory, dic):
+def copyGarSeq(name,path_in, path_out, dic, garSeq = "../content_file/lepisosteus_oculatus_dna.fas"):
     """
     This function add the gar sequence to a individual dataset
     """
-    os.makedirs(directory, exist_ok=True)
+    os.makedirs(path_out, exist_ok=True)
     #dic = GarMatching2(List)
     # try:
-    with open("TGD_CDS/"+str(name),"r") as read:
+    with open(path_in+str(name),"r") as read:
         r = read.readlines()
         rowNum=0
-        with open("lepisosteus_oculatus_dna.fas", "r") as Gar:
+        with open(garSeq, "r") as Gar:
             g = Gar.readlines()
             for line in g:
                 if dic.get(name) in line:
@@ -77,25 +72,19 @@ def copyFile(name, directory, dic):
                     r.append(g[rowNum + 1])
                     r.append("\n")
                 rowNum += 1
-        with open(directory + "/"+str(name),"w") as w: # "w+" creates the file if it doesn't exist
+        with open(path_out + "/"+str(name),"w") as w:
             for line in r:
                 w.write(line)
-    # except:
-    #     print("no")
-    #     pass
 
 
-def addGar(List):
+def addGar(List, path_in, path_out):
     """
     add all gar sequence separately to all 5588 dataset.
     """
-    try:
-        os.mkdir("TGD_CDS_withGar")
-    except:
-        pass
-    dic = GarMatching2(List=List)
+    os.makedirs(path_out, exist_ok=True)
+    dic = GarMatching2(files=List, path=path_in)
     for number in List:
-        copyFile(str(number), "TGD_CDS_withGar",dic)
+        copyGarSeq(str(number), path_in, path_out, dic)
 
 
 
@@ -105,12 +94,12 @@ def select(List,direcetory):
     Gavin's text file.
     """
 
-    os.makedirs("algndna_new/pir/"+direcetory, exist_ok=True)
+    os.makedirs("../algndna_new/pir/"+direcetory, exist_ok=True)
     numbers = List
     for number in numbers:
         print(number)
-        with open("TGD_CDS_withGar/"+str(number),"r") as old:
-            with open("algndna_new/pir/"+direcetory+"/"+str(number), "w") as new:
+        with open("../input_file/TGD_CDS_withGar/"+str(number),"r") as old:
+            with open("../algndna_new/pir/"+direcetory+"/"+str(number), "w") as new:
                 o = old.readlines()
                 for i in o:
                     new.write(i)
@@ -194,72 +183,58 @@ def matchName(List):
         except:
             print("no Pillar"+str(i))
 
-def check(List):
-    number = List
-    #number = range(0,5589)
-    output = []
-    unQ = []
-    for i in number:
-        with open("algndna_new/output/" + i,"r") as o:
-            paralog1 = 0
-            paralog2 = 0
-            outgroup = 0
-            old = o.readlines()
-            for line in old:
-                if ">" in line:
-                    if 'ENSGACG' in line:
-                        paralog1 += 1
-                    elif 'ENSDARG' in line:
-                        paralog2 += 1
-                    elif 'ENSLOCG' in line:
-                        outgroup += 1
-            if paralog1 == 2:
-                if paralog2 == 2:
-                    if outgroup == 1:
-                        output.append(i)
-    for i in output:
-        if i not in List:
-            unQ.append(i)
-    return unQ
 
+def onlyLetter(List):
+    out = []
+    for i in List:
+        out.append("".join(re.findall("[a-zA-Z]+", i)))
+    return out
 
+def check(path, n, outgroup='ENSLOCG'):
+    files = os.listdir(path)
+    out_files = []
+    for file in files:
+        lines = open(path + file, 'r').readlines()
+        names = [line for line in lines if '>' in line if outgroup not in line]
+        names = onlyLetter(names)
+        n_paralog = {name:names.count(name) for name in names}
+        if len([i for i in n_paralog.values() if i < 2]) <= n:
+            out_files.append(file)
+    return out_files
 
 
 def main():
     """Description of main() - what does this function do?  Does it run a 
 		program?  Does it execute test code?"""
     # 45 Full gene dataset
-    input_folder = './TGD_CDS'
-    List = os.listdir(input_folder)
+    input_folder = '../input_file/TGD_CDS/'
+    List = os.listdir(input_folder) # All files from Gavin
     # List = ["Pillar"+i+"_CDS.fas" for i in read()]
-    print(List)
     directory = "selectedFiles"
-
+    List = check(input_folder, 0)
+    List = [i.replace("R.fasta","_CDS.fas") for i in os.listdir('../input_file/IGC_R') if 'fasta' in i]
+    print(len(List))
     print("adding Gar sequence")
-    addGar(List)
+    addGar(List,path_in=input_folder, path_out="../input_file/TGD_CDS_withGar")
     select(List,directory)
 
-    os.makedirs("algndna_new/pir/outputs", exist_ok=True)
-    os.makedirs("algndna_new/output", exist_ok=True)
+
+    os.makedirs("../algndna_new/pir/outputs", exist_ok=True)
+    os.makedirs("../algndna_new/output", exist_ok=True)
 
     for file in List:
         print("aligning" + file)
-        os.system("cd algndna_new/pir/ \nt_coffee -other_pg seq_reformat -in "+directory+"/"
+        os.system("cd ../algndna_new/pir\nls \nt_coffee -other_pg seq_reformat -in "+directory+"/"
                       + str(file) + " -action +translate -output fasta_aln > ./outputs/" + file.replace('_CDS.fas', '')
                   + "_pro.fas\nls\nt_coffee ./outputs/" + file.replace('_CDS.fas', '') + "_pro.fas -output=pir\n")
-        print("cd algndna_new\n ./algndna_new pir/" + file.replace('_CDS.fas', '') + "_pro.pir output/"
-                  + file.replace('_CDS.fas', '') + ".fas -c:pir/" + directory + "/" + file + " -s\n")
-        os.system("cd algndna_new\n ./algndna_new pir/" + file.replace('_CDS.fas', '') + "_pro.pir output/"
+
+        os.system("cd ../algndna_new\n ./algndna_new .pir/" + file.replace('_CDS.fas', '') + "_pro.pir output/"
                   + file.replace('_CDS.fas', '') + ".fas -c:pir/" + directory + "/" + file + " -s\n")
 
 # Clean Gaps
     path_in = "algndna_new/output"
     List = os.listdir(path_in)
 
-    if len(check(List)) == 0:
-        print("all data have 2 paralog1, 2 paralog2, and an outgroup")
-    else:
-        print("*")
     output_folder = 'Aligned_files'
     os.makedirs(output_folder, exist_ok=True)
     for file in List:
